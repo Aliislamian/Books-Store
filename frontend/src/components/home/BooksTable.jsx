@@ -6,8 +6,8 @@ import { MdOutlineDelete } from 'react-icons/md';
 const BooksTable = ({ books }) => {
   return (
     <>
-    <h1 className='text-yellow-500 font-bold text-4xl pl-8 pb-8 bg-purple-600'>Book List</h1>
-    <table className='w-full border-separate border-spacing-2 bg-purple-600 '>
+    <h1 className='text-yellow-500 font-bold text-4xl pl-8 pb-8 '>Book List</h1>
+    <table className='w-full border-separate border-spacing-2  '>
       <thead>
         <tr>
           <th className='border border-yellow-600 rounded-md text-yellow-400'>

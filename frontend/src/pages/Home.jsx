@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <div className=''>
-    <div className='flex justify-end items-center gap-x-4 h-16  bg-black'>
+    <div className='flex justify-end items-center gap-x-4 h-16  '>
       <button
         className='bg-yellow-300 hover:bg-yellow-600 px-4 py-1 rounded-lg text-black'
         onClick={() => setShowType('table')}
@@ -42,7 +42,7 @@ const Home = () => {
         Card
       </button>
       <div className='flex'>
-        <a href="/login">
+        <a href="/">
           <button className='bg-yellow-300 hover:bg-yellow-600 px-4 py-1 rounded-lg text-black mx-2'>
             Login
           </button>
@@ -54,7 +54,7 @@ const Home = () => {
         </Link>
       </div>
       </div>
-      <div className='flex justify-between items-center bg-purple-600'>
+      <div className='flex justify-between items-center  '>
         <h1 className='text-3xl my-8'></h1>
         <div className='flex justify-between items-center'>
           <Link to='/books/create'>
